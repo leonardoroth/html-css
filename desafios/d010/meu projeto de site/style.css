@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #p1{
+        text-align: center;
+    }
+
+    h2{
+        font-family: 'idroid';
+        color: rgb(5, 83, 5);
+        
+    }
+
+    h3{
+        font-family: 'idroid';
+        color: rgb(5, 83, 5);
+        background-image:linear-gradient(to right, rgb(135, 226, 135), white);
+        
+    }
+
+    #h4style{
+        color: white;
+        background-color: rgb(81, 173, 81);
+    }
+
+    .pstyle{
+        background-color: rgb(116, 231, 116);
+    }
+
+    div{
+        display: inline-block;
+    }
+
+    .green-word{
+        color: rgb(31, 163, 31);
+    }
+
+    footer{
+        text-align: center;
+        color: white;
+        background-color: rgb(5, 83, 5);
+    }
