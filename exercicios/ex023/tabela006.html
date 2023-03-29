@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis alias deserunt doloremque dolorem itaque ducimus quam reiciendis vitae quasi totam, commodi voluptates accusamus laboriosam minima iste id, sed quidem.</p>
+        <div id="container">
+            <table>
+                <caption>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Jan</th>
+                            <th>Fev</th>
+                            <th>Mar</th>
+                            <th>Abr</th>
+                            <th>Mai</th>
+                            <th>Jun</th>
+                            <th>Jul</th>
+                            <th>Ago</th>
+                            <th>Set</th>
+                            <th>Out</th>
+                            <th>Nov</th>
+                            <th>Dez</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Amazon Echo</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>32</td>
+                        <td>66</td>
+                        <td>98</td>
+                        <td>3</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>75</td>
+                        <td>32</td>
+                        <td>80</td>
+                        <td>53</td>
+                    </tr>
+                    <tr>
+                        <td>Lava Louças</td>
+                        <td>12</td>
+                        <td>43</td>
+                        <td>5</td>
+                        <td>56</td>
+                        <td>8</td>
+                        <td>86</td>
+                        <td>90</td>
+                        <td>67</td>
+                        <td>34</td>
+                        <td>24</td>
+                        <td>75</td>
+                        <td>64</td>
+                    </tr>
+                    <tr>
+                        <td>PlayStation 5</td>
+                        <td>54</td>
+                        <td>34</td>
+                        <td>55</td>
+                        <td>45</td>
+                        <td>57</td>
+                        <td>87</td>
+                        <td>23</td>
+                        <td>45</td>
+                        <td>45</td>
+                        <td>41</td>
+                        <td>25</td>
+                        <td>43</td>
+                    </tr>
+                    </tbody>
+                </caption>
+            </table>
+        </div>
+</body>
+</html>
